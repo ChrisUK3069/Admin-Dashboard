@@ -1,8 +1,8 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 200px 600px;
+    grid-template-rows: 100px 600px;
     border: 1px solid blue;
 }
 
@@ -11,6 +11,16 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: grid;
+
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+.sidebar > ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
 }
 
 .header {
@@ -18,9 +28,39 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid red;
 }
 
 .main {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid red;
+}
+
+.projects {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px dashed green;
+}
+
+.announcements {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.trending {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
