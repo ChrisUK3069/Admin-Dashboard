@@ -7,32 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="container">
         <div class="sidebar">
-            <div class="brand">Dashboard</div>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+            <div class="brand">
+                <img src=./images/view-dashboard.svg width="40" height="40" class="sideicons">
+                <p>Dashboard</p>
+            </div>
+            <ul class="listmenu">
+                <li class="listhome"><img src=./images/home-outline.svg width="20" height="20" class="sideicons">Home</li>
+                <li class="listprofile"><img src=./images/face-man-profile.svg width="20" height="20" class="sideicons">Profile</li>
+                <li class="listmessages"><img src=./images/message-reply-outline.svg width="20" height="20" class="sideicons">Messages</li>
+                <li class="listhistory"><img src=./images/history.svg width="20" height="20" class="sideicons">History</li>
+                <li class="listtasks"><img src=./images/file-multiple.svg width="20" height="20" class="sideicons">Tasks</li>
+                <li class="listcommunities"><img src=./images/account-group.svg width="20" height="20" class="sideicons">Communities</li>
                 <br>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li class="listsettings"><img src=./images/cog.svg width="20" height="20" class="sideicons">Settings</li>
+                <li class="listsupport"><img src=./images/help-box-outline.svg width="20" height="20" class="sideicons">Support</li>
+                <li class="listprivacy"><img src=./images/shield-check-outline.svg width="20" height="20" class="sideicons">Privacy</li>
             </ul>
+            <div class="sidebarbelowempty"></div>
         </div>
         <div class="header">
             <div class="searchbar">
+                <img src="./images/magnify.svg" class="magnify">
                 <input type="text" id="search" name="search">
             </div>
-            <div class="userinfo">User Information</div>
-            <div class="userwelcome">User Welcome</div>
+            <div class="userinfo">
+                <img src="./images/bell-ring-outline.svg" class="bell">
+                <img src="./images/male.png" class="userimage">
+                <strong>Morgan Oakley</strong>
+
+            </div>
+            <div class="userwelcome">
+                <img src="./images/male.png" class="userimage">
+                Hi there,<br><strong>Morgan Oakley (@morgan)</strong>
+            </div>
             <div class="mainbuttons">
                 <button type="new" id="new">New</button>
-                <button type="upload" id="upload">Upload"</button>
+                <button type="upload" id="upload">Upload</button>
                 <button type="share" id="share">Share</button>
             </div>
 
@@ -40,11 +52,122 @@
         </div>
 
         <div class="main">
-            <div class="projects">Your Projects</div>
-            <div class="announcements">Announcements</div>
-            <div class="trending">Trending</div>
+                <div class="sectionprojects"><strong>Your Projects</strong>
+                <div class="projects">
+                
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="cardtext">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore assumenda, quae vitae tempora quo dignissimos </p>
+                    </div>
+                    <div class="cardicons">
+                        <img src=./images/star-check-outline.svg width="20" height="20" id="greycardicons">
+                        <img src=./images/eye-plus-outline.svg width="20" height="20" id="greycardiconsmid">
+                        <img src=./images/share-variant.svg width="20" height="20" id="greycardicons">
+                    </div>
+                </div>
+                </div>
+                </div>
 
+                <div class="sectionannouncements"><strong>Announcements</strong>
+                <div class="announcements">
+                    <div class="announcementlist">
+                        <p class="title">Site Maintenance</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum quasi consectetur sapiente debitis?</p>
+                    </div>
+                    <div class="announcementlist">
+                        <p class="title">Community Share Day</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum quasi consectetur sapiente debitis?</p>
+                    </div>
+                    <div class="announcementlist">
+                        <p class="title">Upload Privacy Policy</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum quasi consectetur sapiente debitis?</p>
+                    </div>
+                </div> 
+                </div>
+                
+                <div class="sectiontrending"><strong>Trending</strong>
+                <div class="trending">
+                    <div class="trendinglist">
+                        <p class="title">@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="trendinglist">
+                        <p class="title">@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <div class="trendinglist">
+                        <p class="title">@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                    <div class="trendinglist">
+                        <p class="title">@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                
+                </div> 
+                </div>  
         </div>
+
+
+
+
+
     </div>      
 </body>
 </html>
